@@ -37,6 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs" />
+<<<<<<< Updated upstream
+=======
+     <Compile Include="Assets/Scripts/Player.cs" />
+>>>>>>> Stashed changes
      <Compile Include="Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs" />
      <Compile Include="Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" />
@@ -761,7 +765,10 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
       <Project>{ae62e139-d4b6-8296-7d52-1b2d37ef80ab}</Project>
       <Name>FMODUnityResonanceEditor</Name>
@@ -778,6 +785,9 @@
       <Project>{dbb4032b-13aa-08a0-0872-d0da7794ead1}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
