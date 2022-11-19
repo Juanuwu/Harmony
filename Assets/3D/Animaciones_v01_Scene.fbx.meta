@@ -33,7 +33,6 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-
       name: Mov
       takeName: Armature|ArmatureAction.001
       internalID: -1422011007694221501
@@ -46,7 +45,6 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
