@@ -760,6 +760,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{ae62e139-d4b6-8296-7d52-1b2d37ef80ab}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{d107d159-2eb7-cd42-92b1-21779b6521c4}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{1a0f6027-0e02-31dd-0e02-0cea8f5bad8b}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{dbb4032b-13aa-08a0-0872-d0da7794ead1}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
