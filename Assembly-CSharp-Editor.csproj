@@ -300,6 +300,18 @@
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
         <HintPath>/home/pablux/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="StarterAssetsPackageChecker">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll</HintPath>
     </Reference>
@@ -315,23 +327,11 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="unityplastic">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -741,6 +741,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
@@ -758,6 +761,9 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Linux-x86_64">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
@@ -780,14 +786,14 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Core">
-        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+    <Reference Include="Unity.Services.Core">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
@@ -816,11 +822,30 @@
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{fd033f3d-86c8-2813-2cc7-000aed9bf9f4}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{ae62e139-d4b6-8296-7d52-1b2d37ef80ab}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{d107d159-2eb7-cd42-92b1-21779b6521c4}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{1a0f6027-0e02-31dd-0e02-0cea8f5bad8b}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{dbb4032b-13aa-08a0-0872-d0da7794ead1}</Project>
+      <Name>FMODUnityResonance</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
