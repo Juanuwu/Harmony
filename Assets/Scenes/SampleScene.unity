@@ -559,6 +559,25 @@ CapsuleCollider:
   m_Height: 3.9737074
   m_Direction: 1
   m_Center: {x: 0.005523056, y: 1.9868537, z: 0.021962047}
+--- !u!1 &1584470581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7320322728196952118, guid: f1dc5a4c9c8c8a64581f6cf8fa061f20, type: 3}
+  m_PrefabInstance: {fileID: 1091292275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1584470585
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584470581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7307032544039941867, guid: f1dc5a4c9c8c8a64581f6cf8fa061f20, type: 3}
 --- !u!137 &57574269379219042
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
