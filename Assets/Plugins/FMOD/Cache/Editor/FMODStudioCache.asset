@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/musica.bank
   Name: musica
   StudioPath: bank:/musica
-  lastModified: 638044643633646724
+  lastModified: 638044923576342953
   FileSizes:
   - Name: Desktop
-    Value: 438432
+    Value: 438560
   Exists: 1
 --- !u!114 &-8971348887885692103
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638044643627366662
+  lastModified: 638044923576222947
   FileSizes:
   - Name: Desktop
-    Value: 806
+    Value: 804
   Exists: 1
 --- !u!114 &-7572538756684009467
 MonoBehaviour:
@@ -55,7 +55,7 @@ MonoBehaviour:
   Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638044643627366662
+  lastModified: 638044923576222947
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -77,15 +77,15 @@ MonoBehaviour:
   - {fileID: -7572538756684009467}
   - {fileID: -9028438295336155830}
   EditorEvents:
-  - {fileID: 5310392587951596975}
+  - {fileID: 1039203533493567338}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7572538756684009467}
   StringsBanks:
   - {fileID: -8971348887885692103}
-  cacheTime: 638044643633646724
+  cacheTime: 638044923576342953
   cacheVersion: 131593
---- !u!114 &5310392587951596975
+--- !u!114 &1039203533493567338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,9 +95,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
+  m_Name: event:/musica
   m_EditorClassIdentifier: 
-  Path: event:/New Event
+  Path: event:/musica
   Guid:
     Data1: 245373986
     Data2: 1191960641
@@ -107,8 +107,8 @@ MonoBehaviour:
   - {fileID: -9028438295336155830}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 37000
+  Length: 35000
