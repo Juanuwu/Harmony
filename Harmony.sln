@@ -5,12 +5,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnity", "FMODUnity.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{fd033f3d-86c8-2813-2cc7-000aed9bf9f4}"
 EndProject
+<<<<<<< Updated upstream
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnity", "FMODUnity.csproj", "{d107d159-2eb7-cd42-92b1-21779b6521c4}"
+EndProject
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonance", "FMODUnityResonance.csproj", "{dbb4032b-13aa-08a0-0872-d0da7794ead1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityEditor", "FMODUnityEditor.csproj", "{1a0f6027-0e02-31dd-0e02-0cea8f5bad8b}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4a5dd09f-c949-6a42-745a-9381eda0ab18}"
 EndProject
+=======
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonanceEditor", "FMODUnityResonanceEditor.csproj", "{ae62e139-d4b6-8296-7d52-1b2d37ef80ab}"
 EndProject
 Global
@@ -22,12 +30,20 @@ Global
 		{d107d159-2eb7-cd42-92b1-21779b6521c4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fd033f3d-86c8-2813-2cc7-000aed9bf9f4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fd033f3d-86c8-2813-2cc7-000aed9bf9f4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+<<<<<<< Updated upstream
+=======
+		{d107d159-2eb7-cd42-92b1-21779b6521c4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d107d159-2eb7-cd42-92b1-21779b6521c4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+>>>>>>> Stashed changes
 		{dbb4032b-13aa-08a0-0872-d0da7794ead1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{dbb4032b-13aa-08a0-0872-d0da7794ead1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1a0f6027-0e02-31dd-0e02-0cea8f5bad8b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1a0f6027-0e02-31dd-0e02-0cea8f5bad8b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+<<<<<<< Updated upstream
 		{4a5dd09f-c949-6a42-745a-9381eda0ab18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4a5dd09f-c949-6a42-745a-9381eda0ab18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+=======
+>>>>>>> Stashed changes
 		{ae62e139-d4b6-8296-7d52-1b2d37ef80ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ae62e139-d4b6-8296-7d52-1b2d37ef80ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
