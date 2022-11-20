@@ -265,14 +265,14 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - 46fbfdf3fc43db0458918377fd40293e
   - fd7c55dab0fce234b8c25f6ffca523c1
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - e7a046c753c3c3d4aacc91f6597f310d
+  - 0f8eb3f400726694eb47beb1a9f94ce8
   - 52eb9df5db46521439908db3a29a1bbb
   - b7716510a1f36934c87976f3a81dbf3d
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - 46fbfdf3fc43db0458918377fd40293e
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - c88d16e5272a4e241b0ef0ac2e53b73d
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
   codecChannels:
     Value: []
@@ -586,6 +586,7 @@ MonoBehaviour:
   - Master
   Banks:
   - 3dmusica
+  - Ambiente
   - musica
   BanksToLoad: []
   LiveUpdatePort: 9264
@@ -601,17 +602,17 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131593
   Platforms:
-  - {fileID: 1931500939094592540}
-  - {fileID: -6308087892193097344}
-  - {fileID: 25430207321238519}
+  - {fileID: -9147059450825377623}
   - {fileID: -9041469929898547642}
-  - {fileID: -159156696181751984}
-  - {fileID: -647528232011001970}
+  - {fileID: -6820371294823595838}
+  - {fileID: -6308087892193097344}
   - {fileID: -3775988155022509291}
   - {fileID: -2988284406872142745}
-  - {fileID: -6820371294823595838}
-  - {fileID: -9147059450825377623}
+  - {fileID: -647528232011001970}
+  - {fileID: -159156696181751984}
+  - {fileID: 25430207321238519}
   - {fileID: 1738413656331037020}
+  - {fileID: 1931500939094592540}
   MigratedPlatforms: 0c000000150000000b0000000a00000009000000120000000800000005000000060000000200000001000000
 --- !u!114 &25430207321238519
 MonoBehaviour:
