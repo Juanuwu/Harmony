@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7059125859398782765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: AUDIO_FMOD/audioHarmony/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638045402975575136
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
 --- !u!114 &-5561850405712803176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,7 +39,7 @@ MonoBehaviour:
     Data3: 745648774
     Data4: 1497716260
   Banks:
-  - {fileID: 4965912790063208997}
+  - {fileID: 1183895918258223519}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -27,46 +47,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 19000
---- !u!114 &-3895618314895377644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/musica.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/musica.bank
-  Name: musica
-  StudioPath: bank:/musica
-  lastModified: 638045337533332986
-  FileSizes:
-  - Name: Desktop
-    Value: 438432
-  Exists: 1
---- !u!114 &-2356667729862795348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638045337533172986
-  FileSizes:
-  - Name: Desktop
-    Value: 906
-  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,20 +60,40 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -2356667729862795348}
-  - {fileID: 4965912790063208997}
-  - {fileID: 5775202287370186176}
-  - {fileID: -3895618314895377644}
+  - {fileID: 3240069634133500522}
+  - {fileID: 1183895918258223519}
+  - {fileID: -7059125859398782765}
+  - {fileID: 8454092010253315623}
   EditorEvents:
   - {fileID: 1953770147413749713}
   - {fileID: -5561850405712803176}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5775202287370186176}
+  - {fileID: -7059125859398782765}
   StringsBanks:
-  - {fileID: -2356667729862795348}
-  cacheTime: 638045337533332986
+  - {fileID: 3240069634133500522}
+  cacheTime: 638045402981855201
   cacheVersion: 131593
+--- !u!114 &1183895918258223519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/3dmusica.bank
+  m_EditorClassIdentifier: 
+  Path: AUDIO_FMOD/audioHarmony/Build/Desktop/3dmusica.bank
+  Name: 3dmusica
+  StudioPath: bank:/3dmusica
+  lastModified: 638045402975575136
+  FileSizes:
+  - Name: Desktop
+    Value: 256512
+  Exists: 1
 --- !u!114 &1953770147413749713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
     Data3: -1182297674
     Data4: -727961537
   Banks:
-  - {fileID: -3895618314895377644}
+  - {fileID: 8454092010253315623}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -121,7 +121,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 35000
---- !u!114 &4965912790063208997
+--- !u!114 &3240069634133500522
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,17 +131,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/3dmusica.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/3dmusica.bank
-  Name: 3dmusica
-  StudioPath: bank:/3dmusica
-  lastModified: 638045337533172986
+  Path: AUDIO_FMOD/audioHarmony/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638045402975575136
   FileSizes:
   - Name: Desktop
-    Value: 256512
+    Value: 906
   Exists: 1
---- !u!114 &5775202287370186176
+--- !u!114 &8454092010253315623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,13 +151,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/musica.bank
   m_EditorClassIdentifier: 
-  Path: ../../../AUDIO HARMONY/audioHarmony/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638045337533172986
+  Path: AUDIO_FMOD/audioHarmony/Build/Desktop/musica.bank
+  Name: musica
+  StudioPath: bank:/musica
+  lastModified: 638045402981855201
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 438432
   Exists: 1

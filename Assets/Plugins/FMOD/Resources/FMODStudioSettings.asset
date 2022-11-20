@@ -560,8 +560,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../AUDIO HARMONY/audioHarmony/audioHarmony.fspro
-  sourceBankPath: ../../../AUDIO HARMONY/audioHarmony/Build
+  sourceProjectPath: AUDIO_FMOD/audioHarmony/audioHarmony.fspro
+  sourceBankPath: AUDIO_FMOD/audioHarmony/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
