@@ -588,6 +588,7 @@ MonoBehaviour:
   - 3dmusica
   - Ambiente
   - musica
+  - pasos
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{35983f70-f523-4a90-ba36-713bbd512022}">
+		<property name="assetPath">
+			<value>pasos/S01 WP02DL - 01-59 - Heel 01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.18608333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{68ef00f6-df06-40fc-b46f-1a31641abc59}</destination>
+		</relationship>
+	</object>
+</objects>
