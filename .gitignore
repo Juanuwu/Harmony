@@ -1,5 +1,6 @@
 Temp/
 Logs/
 Library/
+Assets/Plugins/FMOD/Cache
 *.log
 UserSettings/
