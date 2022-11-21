@@ -1209,9 +1209,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 586176916}
-        m_TargetAssemblyTypeName: ctrSceneManager, Assembly-CSharp
-        m_MethodName: Salir
+      - m_Target: {fileID: 586176915}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: quitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
