@@ -101,7 +101,7 @@ public class Enemy_mov : MonoBehaviour
                 break;
             case States.aggressive:
                 if(chasing && aggressive){
-                    Vector3 player= new Vector3(Player.position.x, transform.position.y, Player.position.x);
+                    Vector3 player= new Vector3(Player.position.x, Player.position.y, Player.position.z);
                     transform.LookAt(player);    
                     transform.position= Vector3.MoveTowards(transform.position, player, 
                                                             run * Time.deltaTime);
