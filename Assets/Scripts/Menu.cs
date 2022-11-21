@@ -21,4 +21,7 @@ public class Menu : MonoBehaviour
     public void offCredit(){
         creditos.SetActive(false);
     }
+    public void quitGame(){
+        Application.Quit();
+    }
 }
