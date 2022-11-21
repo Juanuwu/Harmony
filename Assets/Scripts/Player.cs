@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     void Start()
     {
     
-        emisorCaminata = GameObject.Find("pasos").GetComponent<FMODUnity.StudioEventEmitter>();
+        
     }
 
     // Update is called once per frame
@@ -42,16 +42,6 @@ public class Player : MonoBehaviour
         playerMov= new Vector3(horizontalMov, 0, verticalMov);
         playerMov= Vector3.ClampMagnitude(playerMov, 1);
 
-        //sonido pasos : https://www.youtube.com/watch?v=Uy1dX7bOPG4&t=947s
-        if (horizontalMov != 0)
-        {
-            emisorCaminata.Play();
-        }
-        else
-        {
-            emisorCaminata.Stop();
-        }
-        emisorCaminata.Play();
         //Obtener dirección de la cámara
         camF= mainCamera.transform.forward;
         camR= mainCamera.transform.right;
