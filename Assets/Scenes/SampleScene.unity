@@ -893,6 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c6d19987b57a54882d61590e927334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  visto: 1
   state: 0
   speed: 2
   run: 3
@@ -936,6 +937,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1313226787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313226782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b99e8f2a1154f841ac0ec08c7b82dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 1313226782}
+  launchVelocity: 700
 --- !u!1 &1323428662
 GameObject:
   m_ObjectHideFlags: 0
