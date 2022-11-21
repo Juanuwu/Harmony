@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18029143, g: 0.22572419, b: 0.30693057, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -405,6 +405,36 @@ MonoBehaviour:
   RangeChasing: 1
   RangeVision: 1
   chasing: 0
+--- !u!114 &1135129092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135129090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 977733269
+      Data2: 1208618541
+      Data3: 1510273707
+      Data4: -48041815
+    Path: event:/pasos
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 7
 --- !u!1 &1339353215
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +446,7 @@ GameObject:
   - component: {fileID: 1339353218}
   - component: {fileID: 1339353217}
   - component: {fileID: 1339353216}
+  - component: {fileID: 1339353219}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -430,7 +461,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339353215}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1339353217
 Camera:
   m_ObjectHideFlags: 0
@@ -489,6 +520,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+--- !u!114 &1339353219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339353215}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1396767140
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +831,7 @@ GameObject:
   - component: {fileID: 1675514015}
   - component: {fileID: 1675514014}
   - component: {fileID: 1675514013}
+  - component: {fileID: 1675514016}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -844,6 +889,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675514016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675514012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1823697569
 GameObject:
   m_ObjectHideFlags: 0
