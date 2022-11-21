@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 503317844}
-  speed: 3
+  speed: 3.2
   horizontalMov: 0
   verticalMov: 0
 --- !u!1 &705507993
@@ -847,7 +847,7 @@ MonoBehaviour:
   timeStop: 2
   stopMove: 0
   aggressive: 1
-  RangeChasing: 7.7
+  RangeChasing: 5
   RangeVision: 4.6
   chasing: 0
 --- !u!65 &1313226785
@@ -861,8 +861,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.8252411, z: 1}
-  m_Center: {x: 0, y: 0.60163116, z: 0}
+  m_Size: {x: 1, y: 1.0137177, z: 1.1020851}
+  m_Center: {x: 0, y: 0.5073929, z: 0.051042557}
 --- !u!54 &1313226786
 Rigidbody:
   m_ObjectHideFlags: 0
