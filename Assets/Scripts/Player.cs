@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class Player : MonoBehaviour
+
+
 {
     private CharacterController cc;
     private Animator anim;
@@ -16,15 +20,18 @@ public class Player : MonoBehaviour
     [SerializeField] private float verticalMov;
     private Vector3 playerMov;
     private Vector3 playerDirecction;
+    
 
     private void Awake(){
         cc= GetComponent<CharacterController>();
         anim= transform.GetChild(0).GetComponent<Animator>();
     }
     // Start is called before the first frame update
+    FMODUnity.StudioEventEmitter emisorCaminata;
     void Start()
     {
-        
+    
+        emisorCaminata = GameObject.Find("pasos").GetComponent<FMODUnity.StudioEventEmitter>();
     }
 
     // Update is called once per frame
@@ -34,6 +41,17 @@ public class Player : MonoBehaviour
         verticalMov= Input.GetAxis("Vertical");
         playerMov= new Vector3(horizontalMov, 0, verticalMov);
         playerMov= Vector3.ClampMagnitude(playerMov, 1);
+
+        //sonido pasos : https://www.youtube.com/watch?v=Uy1dX7bOPG4&t=947s
+        if (horizontalMov != 0)
+        {
+            emisorCaminata.Play();
+        }
+        else
+        {
+            emisorCaminata.Stop();
+        }
+        emisorCaminata.Play();
         //Obtener dirección de la cámara
         camF= mainCamera.transform.forward;
         camR= mainCamera.transform.right;
@@ -42,6 +60,8 @@ public class Player : MonoBehaviour
         camF= camF.normalized;
         camR= camR.normalized;
         playerDirecction= playerMov.x * camR + playerMov.z * camF;
+    
+    
         //
         anim.SetFloat("v",cc.velocity.magnitude);
         cc.transform.LookAt(cc.transform.position + playerDirecction);
