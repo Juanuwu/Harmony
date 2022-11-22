@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5d22ed88-708c-465d-be98-82df6b69e73e}">
+		<property name="assetPath">
+			<value>Tema_Combate_Harmony.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>24.005895833333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{68ef00f6-df06-40fc-b46f-1a31641abc59}</destination>
+		</relationship>
+	</object>
+</objects>
