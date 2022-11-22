@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18029143, g: 0.22572419, b: 0.30693057, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1358,7 +1358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRECIONA ESPACIO PARA JUGAR
+  m_text: PRESIONA ESPACIO PARA JUGAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5cb7e70c585c19d4f9ef0c47490a67c6, type: 2}
   m_sharedMaterial: {fileID: 8371277157861805223, guid: 5cb7e70c585c19d4f9ef0c47490a67c6, type: 2}
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRECIONA ESC PARA SALIR
+  m_text: Y  ESC PARA SALIR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5cb7e70c585c19d4f9ef0c47490a67c6, type: 2}
   m_sharedMaterial: {fileID: 8371277157861805223, guid: 5cb7e70c585c19d4f9ef0c47490a67c6, type: 2}
