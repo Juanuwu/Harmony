@@ -36,36 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\SceneChange.cs" />
-     <Compile Include="Assets\Scripts\Menu2.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\ctrSceneManager.cs" />
-     <Compile Include="Assets\Scripts\Menu.cs" />
-     <Compile Include="Assets\Scripts\Enemy_mov.cs" />
-     <Compile Include="Assets\Scripts\CameraController.cs" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-=======
      <Compile Include="Assets/Scripts/SceneChange.cs" />
      <Compile Include="Assets/Scripts/launch_projectile.cs" />
      <Compile Include="Assets/Scripts/Player.cs" />
@@ -73,6 +43,7 @@
      <Compile Include="Assets/Scripts/Menu.cs" />
      <Compile Include="Assets/Scripts/Enemy_mov.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
+     <Compile Include="Assets/Scripts/Menu2.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
@@ -94,7 +65,6 @@
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     <Reference Include="UnityEngine">
         <HintPath>/home/pablux/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -338,29 +308,29 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/home/pablux/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>/home/pablux/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
@@ -734,19 +704,11 @@
     <Reference Include="mscorlib">
         <HintPath>/home/pablux/Unity/Hub/Editor/2021.3.14f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-=======
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -756,51 +718,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -817,16 +734,6 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-    <Reference Include="Unity.Burst.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-=======
     <Reference Include="Unity.VisualScripting.State.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
@@ -835,7 +742,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     </Reference>
     <Reference Include="Unity.Toolchain.Linux-x86_64">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
@@ -843,8 +749,6 @@
     <Reference Include="Unity.Postprocessing.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-=======
     <Reference Include="UnityEditor.UI">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -854,70 +758,41 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-=======
     <Reference Include="UnityEngine.UI">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-    <Reference Include="Unity.Mathematics">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-=======
     <Reference Include="Unity.Services.Core">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-=======
     <Reference Include="com.unity.cinemachine.editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
->>>>>>> 43813defdd9e79e1bd32a5fb62813e09e032e00e
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
@@ -927,6 +802,51 @@
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
         <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
