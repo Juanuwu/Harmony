@@ -31,7 +31,7 @@ public class Menu2 : MonoBehaviour
 
     private void CambiarScena(){
         //Debug.Log("xD");
-        //SceneManager.LoadScene(gameScene);
+        SceneManager.LoadScene("SampleScene");
     }
     private void Salir(){
         //Debug.Log("a mimir");
