@@ -15,7 +15,6 @@ public class launch_projectile : MonoBehaviour
     {
         GameObject ball = Instantiate(projectile, transform.position,  
                                                      transform.rotation);
-           BoxCollider gameObjectsBoxCollider= ball.AddComponent<BoxCollider>();
            ball.GetComponent<launch_projectile>().enabled = false;
            ball.GetComponent<Rigidbody>().AddRelativeForce(new Vector3 
                                                 (1000, launchVelocity,0));
