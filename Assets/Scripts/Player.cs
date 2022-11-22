@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
 
     private void Awake(){
         cc= GetComponent<CharacterController>();
-        anim= transform.GetChild(0).GetComponent<Animator>();
+        anim= transform.GetComponent<Animator>();
     }
     // Start is called before the first frame update
     FMODUnity.StudioEventEmitter emisorCaminata;

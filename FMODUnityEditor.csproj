@@ -326,7 +326,7 @@
         <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -347,22 +347,22 @@
         <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>D:\ProyectUnity\Harmony\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -764,13 +764,17 @@
         <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
+<<<<<<< HEAD
         <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+=======
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+>>>>>>> 8ed6f6073047b452c1ed8af0fc903b1c61f0cb7d
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>D:\ProyectUnity\Harmony\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/home/pablux/GITHUB/Harmony2/Harmony/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
