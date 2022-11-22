@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy_mov : MonoBehaviour
 {
     private enum States{ passive, aggressive, dead};
+    public int visto = 1;
 
     [Header("Datos enemigo")]
     [SerializeField] private States state; //Estado 
@@ -105,6 +106,11 @@ public class Enemy_mov : MonoBehaviour
                     transform.LookAt(player);    
                     transform.position= Vector3.MoveTowards(transform.position, player, 
                                                             run * Time.deltaTime);
+                    if(visto == 1){
+                    launch_projectile launch_projectile = GetComponent<launch_projectile>();
+                    launch_projectile.Invoke("shoot", 0);
+                    }
+                    visto = 0;
                 
                 }else state= States.passive;
                 break;

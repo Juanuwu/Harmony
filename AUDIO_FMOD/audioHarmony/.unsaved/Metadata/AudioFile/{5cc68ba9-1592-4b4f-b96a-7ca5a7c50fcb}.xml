@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5cc68ba9-1592-4b4f-b96a-7ca5a7c50fcb}">
+		<property name="assetPath">
+			<value>soniditoMenu.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.2000000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{68ef00f6-df06-40fc-b46f-1a31641abc59}</destination>
+		</relationship>
+	</object>
+</objects>
